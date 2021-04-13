@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fig2.jpg</file>
+        <file>fig2.png</file>
+        <file>stylesheet.qss</file>
+        <file>client.png</file>
+        <file>client1.png</file>
+        <file>fig1.jpg</file>
+        <file>img1.jpg</file>
+        <file>img2.jpg</file>
+        <file>img3.jpg</file>
+        <file>img4.jpg</file>
+        <file>img5.jpg</file>
+        <file>img6.jpg</file>
+        <file>img7.jpg</file>
+        <file>img8.jpg</file>
+        <file>img9.jpg</file>
+        <file>bjk1.ico</file>
+        <file>bjk2.ico</file>
+        <file>bjk2.jpg</file>
+    </qresource>
+</RCC>
