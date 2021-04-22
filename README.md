@@ -28,7 +28,7 @@
 已申软著，请勿商用 (＃｀д´)ﾉ<br>
 ## 使用说明
 
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image022.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image022.png" alt="pic4_readme"/></div>
 <p align="center">图2</p>
 &#8195;&#8195;如图2所示，小鹤双拼练习软件的界面主要包括文字组显示区、打字练习区和参数设定区。<br>
 &#8195;&#8195;界面主要包括文字组显示框、正确率显示框、待打文字显示框、输入文本框、私练文本框、文字组长度设定框、练习起点设定框、练习次数设定框、准确度设定框、恢复默认设置按钮、
@@ -39,35 +39,35 @@
 <div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image023.jpg" alt="pic4_readme"/></div>
 <p align="center">图3</p>
 &#8195;&#8195;用户进入本界面后，应该按照输入文本框中的提示文字将自己电脑的输入法调成英文小写模式，然后鼠标点击输入文本框，敲击待打文字显示框中的文字所对应的键位即可，若敲击键位正确则输入文本框清空，同时待打文字显示框刷新，显示下一个从文字组显示区随机选出的需要练习的文字, 正确率显示框刷新，显示最近一段时间内用户打字的正确率。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image024.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image024.png" alt="pic4_readme"/></div>
 <p align="center">图4</p>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image025.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image025.png" alt="pic4_readme"/></div>
 <p align="center">图5</p>
 &#8195;&#8195;如图4，图5所示，需要注意的是，默认情况下由于“输入正确自动换字”复选框在软件启动后默认是被选中状态，所以用户敲击正确键位后，输入文本框将被自动清空。如果用户想练习敲击键位后按空格确定汉字输入的真实打字节奏或者实时确认自己的键位敲击是否正确，可以用鼠标点击“输入正确自动换字”复选框，复选框中对号消失，即其状态由选中变为未选中，此时用户在敲击完正确键位后再按一下回车才能将输入文本框中的键位交给软件判定。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image026.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image026.png" alt="pic4_readme"/></div>
 <p align="center">图6</p>
 &#8195;&#8195;如图6所示，若用户敲击键位错误则输入文本框不会自动清空，同时待打文字显示框变为红色以提醒用户敲击键位错误, 正确率显示框刷新，显示最近一段时间内用户打字的正确率。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image027.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image027.png" alt="pic4_readme"/></div>
 <p align="center">图7</p>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image028.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image028.png" alt="pic4_readme"/></div>
 <p align="center">图8</p>
 &#8195;&#8195;如图7，图8所示，默认情况下由于“输入错误自动清除”复选框在软件启动后默认是未选中状态，所以用户敲击错误键位后，输入文本框不会自动清空以便于用户查看和纠正自己错误的击键习惯。如果用户想实现输入错误自动清除的功能，可以用鼠标点击“输入错误自动清除”复选框，复选框中对号出现，即其状态由未选中变为选中，此时用户在敲击完错误键位后软件会立刻处理用户输入的错误键位并刷新相关显示文本框，等待用户再次尝试输入键位，直到输入正确键位为止。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image029.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image029.png" alt="pic4_readme"/></div>
 <p align="center">图9</p>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image030.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image030.png" alt="pic4_readme"/></div>
 <p align="center">图10</p>
 &#8195;&#8195;如图9，图10所示，用户练习的文字是从文字组显示框中随机选择出来的，同时文字组显示框中的文字也会随着用户练习次数的增加而不断更新，平均每个文字被练习的次数等于文字库长度乘以每组练习次数，默认设置是每个文字练习10 * 3 = 30 次。<br><br>
 &#8195;&#8195;如果用户需要调整自己的练习强度，可以用鼠标点击文字库长度设定框，将默认数量“10”修改成用户的预设值，也可以点击练习次数设定框，将默认数量“3”修改为用户的预设值。需要注意的是。虽然这两个设定框都可以用来修改每个文字的平均练习次数，但修改文字库长度还会影响到文字组显示框中显示的文字数量，请用户自行权衡。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image031.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image031.png" alt="pic4_readme"/></div>
 <p align="center">图11</p>
 &#8195;&#8195;如图11所示，用户在修改软件各个参数时设定框均会出现提示文字，提示用户该设定框的最大范围。以练习起点设定框为例，修改此设定框时软件会提示用户“请输入正整数<401”,即用户输入的必须是正整数且小于401。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image032.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image032.png" alt="pic4_readme"/></div>
 <p align="center">图12</p>
 &#8195;&#8195;如图12所示，软件会帮助用户循环练习汉字的402种拼音，如果用户需要调整自己的练习起点，可以用鼠标单击练习起点设定框，将默认数量“0”修改成用户的预设值。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image033.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image033.png" alt="pic4_readme"/></div>
 <p align="center">图13</p>
 &#8195;&#8195;如图13所示，不建议初学者修改本软件的各项参数，如果用户试图将本软件的各项参数恢复成默认值，可通过单击“恢复默认设置”按钮实现。<br><br>
-<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image034.jpg" alt="pic4_readme"/></div>
+<div align=center><img src="https://github.com/bjk12/LittleBird_TypeExercise/blob/main/pic4_readme/image034.png" alt="pic4_readme"/></div>
 <p align="center">图14</p>
 &#8195;&#8195;如图14所示，当用户已经使用本软件很长时间后，为了避免熟悉字库的排列顺序而影响练习效果，可以通过单击“打乱字库顺序”按钮，将402种拼音的顺序全部乱序重排以保证随机打字的练习质量。<br>
 &#8195;&#8195;<br>
