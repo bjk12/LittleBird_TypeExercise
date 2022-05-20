@@ -41,6 +41,7 @@ private:
     int num_words[402];//dei太生僻了，排除
     int flagtrue=1;
     int flagfalse=0;
+    int flagtoomanyword=0;
     int batch;
     int num_batch;
     int current1;

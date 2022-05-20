@@ -70,6 +70,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Edit_input_textEdited(const QString &arg1)
 {
+    if(arg1.length()>2 && flagtrue==1)
+    {
+        flagtoomanyword=1;
+    }
+    if(arg1.length()>3 && flagtrue==0)
+    {
+        flagtoomanyword=1;
+    }
     if(arg1.length()==2 && flagtrue==1){
         num_sum++;
         if(QString::compare( arg1.toLower(), words[num_words[current_word]] )==0)
@@ -78,14 +86,24 @@ void MainWindow::on_Edit_input_textEdited(const QString &arg1)
             ui->Edit_currrent->setStyleSheet("color:black;font:64pt;border:10px groove gray;border-radius:20px;padding:2px 4px");
             emit dazichecked();
         }
-        else if(flagfalse==1)
-        {
-            ui->Edit_input->clear();
-        }
         else
         {
-            ui->Edit_currrent->setStyleSheet("border:10px groove gray;border-radius:20px;padding:2px 4px;color:red;font:64pt;");
+            if(flagtoomanyword==1)
+            {
+                flagtoomanyword=0;
+                num_sum--;
+    //          qDebug()<<"toomanyword";
+              return;
+            }
+             ui->Edit_currrent->setStyleSheet("border:10px groove gray;border-radius:20px;padding:2px 4px;color:red;font:64pt;");
+             if(flagfalse==1)
+             {
+                 ui->Edit_input->clear();
+             }
         }
+
+        float accuracy=(float)num_true/num_sum*100;
+        ui->accuracy->setText(QString("%1%").arg(QString::number(accuracy, 'f', 2)));
     }
     else if(arg1.length()==3 && flagtrue==0)
     {
@@ -95,21 +113,30 @@ void MainWindow::on_Edit_input_textEdited(const QString &arg1)
             ui->Edit_currrent->setStyleSheet("color:black;font:64pt;border:10px groove gray;border-radius:20px;padding:2px 4px");
             emit dazichecked();
         }
-        else if(flagfalse==1)
-        {
-               ui->Edit_input->clear();
-        }
         else
         {
-            ui->Edit_currrent->setStyleSheet("border:10px groove gray;border-radius:20px;padding:2px 4px;color:red;font:64pt;");
+            if(flagtoomanyword==1)
+            {
+                flagtoomanyword=0;
+                num_sum--;
+    //          qDebug()<<"toomanyword";
+              return;
+            }
+             ui->Edit_currrent->setStyleSheet("border:10px groove gray;border-radius:20px;padding:2px 4px;color:red;font:64pt;");
+             if(flagfalse==1)
+             {
+                 ui->Edit_input->clear();
+             }
         }
+
+        //无论对错都更新正确率
+        float accuracy=(float)num_true/num_sum*100;
+        ui->accuracy->setText(QString("%1%").arg(QString::number(accuracy, 'f', 2)));
     }
 }
 void MainWindow::updata_hanzi(){
     current1++;
- //   qDebug()<<current1;
     float accuracy=(float)num_true/num_sum*100;
-    ui->accuracy->setText(QString("%1%").arg(QString::number(accuracy, 'f', 2)));
     QString str1="";
     if(batch+num_batch<Number)
     {
@@ -200,6 +227,7 @@ void MainWindow::on_resetButton_clicked()
     extime=2;
     ui->Edit_currrent->clear();
     ui->Edit_input->clear();
+    flagtoomanyword=0;
     ui->accuracy->clear();
     QString str1="";
     for(int i=0;i<batch;i++)
@@ -208,7 +236,7 @@ void MainWindow::on_resetButton_clicked()
     }
     ui->hertory->setPlainText(str1);
     ui->Edit_currrent->setText(hanzi[num_words[current1]]);
-
+    ui->Edit_currrent->setStyleSheet("color:black;font:64pt;border:10px groove gray;border-radius:20px;padding:2px 4px");
     ui->len_word->setText("10");
     ui->ord_words->setText("0");
     ui->extime_words->setText("3");
