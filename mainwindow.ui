@@ -82,7 +82,7 @@ font: 18pt &quot;宋体&quot;;
           </font>
          </property>
          <property name="text">
-          <string>目前正在练习的文字库：                                       _</string>
+          <string>目前正在练习的文字库：                                       </string>
          </property>
         </widget>
        </item>
@@ -97,7 +97,7 @@ font: 18pt &quot;宋体&quot;;
          <property name="maximumSize">
           <size>
            <width>600</width>
-           <height>100</height>
+           <height>80</height>
           </size>
          </property>
         </widget>
@@ -197,8 +197,8 @@ font: 18pt &quot;宋体&quot;;
           <widget class="QLineEdit" name="Edit_currrent">
            <property name="minimumSize">
             <size>
-             <width>0</width>
-             <height>120</height>
+             <width>150</width>
+             <height>140</height>
             </size>
            </property>
            <property name="maximumSize">
@@ -221,6 +221,9 @@ font: 18pt &quot;宋体&quot;;
 border-radius:20px;
 padding:2px 4px;
 </string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
            </property>
           </widget>
          </item>
